@@ -1,5 +1,7 @@
 # Build ASP.NET Core Web API .NET 8. Entity Framework-React-TypeScript
 
+Quickly find relevant financial data (in React TypeScript + .NET API)
+
 1. Model
 2. Controller
 3. DTOs
