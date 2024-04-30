@@ -1,31 +1,34 @@
+# Build ASP.NET Core Web API .NET 8. Entity Framework-React-TypeScript
 
+1. Model
+2. Controller
+3. DTOs
+4. POST-PUT-PATCH-DELETE
+5. Asyn/Wait
+6. Sorting
+7. Pagination
 
+# 💻 Screen Shoot 💻
 
+![alt text](1.png)
+![alt text](2.png)
+![alt text](3.png)
 
-YouTube : https://www.youtube.com/watch?v=qBTe6uHJS_Y&list=PL82C6-O4XrHfrGOCPmKmwTO7M0avXyQKc
-github: https://github.com/teddysmithdev/FinShark
-
-
-
-1==> ASP.NET Core Web API .NET 8 2024 -1. Create Project + Install 
+1==> ASP.NET Core Web API .NET 8 2024 -1. Create Project + Install
 Commande to create dotnet project in vs code : 'dotnet new webapi -o api' ==permet de creed un nouveau project webapi, l'argument -o api (regroupe les fichier dans le dossier api)
 dotnet watch run .
- 
 
 ============API FUNDAMENTAL==========
 
-CREATE : Post  READ: Get. UPDATE: Update    DELETE : Delete
-
+CREATE : Post READ: Get. UPDATE: Update DELETE : Delete
 
 API allow us to interact with the databases.
-
 
 =======How can I install and use Entity Framework Core in Visual Studio Code?=====
 
 https://stackoverflow.com/questions/33148698/how-can-i-install-and-use-entity-framework-core-in-visual-studio-code
 
-
-1==> with commande line 
+1==> with commande line
 
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 
@@ -34,5 +37,3 @@ dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 <ItemGroup>
    <PackageGroup Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.0" />
 </ItemGroup>
-
-
